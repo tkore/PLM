@@ -1,0 +1,18 @@
+{
+    "includes_dirname": "plm_libs",
+    "libraries": [
+        {
+            "name": "jQuery",
+            "version": "1.8.2",
+            "source": "https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"
+        },
+        {
+            "name": "Slick Slider",
+            "version": "Latest",
+            "source": "https://raw.githubusercontent.com/kenwheeler/slick/master/slick/slick.js",
+            "attachments": [
+                "https://raw.githubusercontent.com/kenwheeler/slick/master/slick/slick-theme.css"
+            ]
+        }
+    ]
+}

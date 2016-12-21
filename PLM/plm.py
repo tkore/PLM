@@ -67,7 +67,10 @@ class plmThread(threading.Thread):
 
     def downloadLibrary(self):
         tagLocation = self.settings.get('includes_dirname') + '/' + self.libraries[self.index]['source'].split('/').pop()
-        tagLocation = tagLocation[:tagLocation.rfind('?')]
+
+        if (tagLocation.rfind('?')) >= 0:
+            tagLocation = tagLocation[:tagLocation.rfind('?')]
+
         urllib.request.URLopener().retrieve(self.libraries[self.index]['source'], self.cwd + '/' + tagLocation)
         self.view.run_command('plm_append_tags', {"tag": tagLocation})
 

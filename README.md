@@ -24,7 +24,6 @@ With PLM, you just need to set up your own list of libraries using the plugin Us
 
 and watch the magic happen.
 
-<br>
 ### Attachments
 You can also add attachments for each library. For example, if you need both Bootstrap's CSS and JS files, you can just edit the plugin's user settings and add something like the following:
 
@@ -41,7 +40,6 @@ You can also add attachments for each library. For example, if you need both Boo
 ]
 ```
 
-<br>
 ### Default folder name
 As you can tell, the name of the default folder for downloaded libraries is "plm_libs". 
 

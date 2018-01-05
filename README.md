@@ -2,7 +2,7 @@
 ### A simple library manager for simple projects
 
 
-![](http://talko.ren/stuff/plm.gif?)
+![](https://github.com/Ardethian/PLM/blob/master/plm.gif?)
 
 
 ### What is PLM?
